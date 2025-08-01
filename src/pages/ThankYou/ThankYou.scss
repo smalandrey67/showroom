@@ -1,0 +1,21 @@
+.thankyou {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin: 0 0 10px 0;
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+}

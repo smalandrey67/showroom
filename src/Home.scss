@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #181818;
+  margin: 0;
+  padding: 0;
+  color: #d4d4d4;
+  font-family: "Ubuntu", sans-serif;
+}
+
+input,
+button,
+textarea {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1130px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.gallery {
+  padding: 0 20px;
+
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  &-title {
+    font-size: 23px;
+    margin-bottom: 10px;
+    font-weight: 800;
+  }
+
+  &__item {
+    font-size: 17px;
+  }
+}
+
+.information {
+  margin: 40px 0 20px 0;
+
+  &-list {
+    margin: 0;
+  }
+
+  &-title {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+
+  &-item {
+    font-size: 18px;
+    margin: 8px 0;
+  }
+}
+
+.price {
+  margin-bottom: 20px;
+
+  &__count {
+    color: #9bf050;
+    margin-left: 5px;
+  }
+}
+
+form {
+  margin-bottom: 20px;
+
+  label {
+    display: block;
+  }
+
+  input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 0 15px;
+
+    border: none;
+    outline: none;
+
+    font-size: 18px;
+    font-weight: 400;
+
+    &::placeholder {
+      font-size: 15px;
+    }
+  }
+
+  textarea {
+    width: 100%;
+    resize: none;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+    height: 100px;
+
+    border: none;
+    outline: none;
+
+    font-size: 18px;
+    font-weight: 400;
+
+    &::placeholder {
+      font-size: 15px;
+    }
+  }
+
+  button {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+
+    background: #9bf050;
+    color: #181818;
+
+    font-weight: 600;
+  }
+}
