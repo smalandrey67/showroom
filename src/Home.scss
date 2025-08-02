@@ -29,7 +29,7 @@ textarea {
 .title {
   text-align: center;
   font-size: 35px;
-  margin-bottom: 5px;
+  margin-bottom: 25px;
 }
 
 .subtitle {
@@ -148,5 +148,9 @@ form {
     color: #181818;
 
     font-weight: 600;
+
+    &:disabled {
+      opacity: 0.5;
+    }
   }
 }

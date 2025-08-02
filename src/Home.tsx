@@ -31,6 +31,7 @@ export const Home = () => {
         import.meta.env.VITE_SERVICE_ID,
         import.meta.env.VITE_TEMPLATE_ID,
         {
+          time: new Date().toLocaleString(),
           fullName: fullName.current?.value || "No Name",
           phone: phone.current?.value || "No phone",
           address: address.current?.value || "No address",
@@ -55,7 +56,6 @@ export const Home = () => {
       <section>
         <div className="container">
           <h1 className="title">Шоурум Модель</h1>
-          <p className="subtitle">для твоїх речей 🔥🔥</p>
 
           <div className="gallery">
             <Slider {...SLICK_CONFIG}>
@@ -98,7 +98,6 @@ export const Home = () => {
             <h3 className="group-title">Додатково:</h3>
             <div className="group">
               <div>Машинки не входять у комлект</div>
-              <div>Кожен шоурум працює від окремого usb</div>
             </div>
           </div>
 

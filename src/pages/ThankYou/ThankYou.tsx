@@ -10,10 +10,10 @@ export const ThankYou = () => {
       <p>Ми в соцмережах</p>
 
       <div className="thankyou__social">
-        <a href="https://www.instagram.com/stylish.room.space">
+        <a href="https://www.tiktok.com/@stylish.room.space">
           <FaTiktok size={30} color="#ffffff" />
         </a>
-        <a href="https://www.tiktok.com/@stylish.room.space">
+        <a href="https://www.instagram.com/stylish.room.space ">
           <FaInstagram size={33} color="#ffffff" />
         </a>
       </div>
